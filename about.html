@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Demo - About</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(270deg, #ff512f, #dd2476);
+        background-size: 400% 400%;
+        animation: gradientBG 10s ease infinite;
+        color: white;
+        text-align: center;
+    }
+
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+        margin: 20px auto;
+        padding: 25px;
+        width: 60%;
+        border-radius: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    a {
+        color: lightgreen;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer {
+        margin-top: 40px;
+        padding: 10px;
+        background: rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📄 Contributor 2 Page</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>👩‍💻 Contributor 2</h2>
+        <p>Created by <b>Your Friend Name</b></p>
+        <p>This page shows collaboration using GitHub.</p>
+    </div>
+
+    <div class="card">
+        <h2>⚙️ Features Demonstrated</h2>
+        <p>✔ Multi-user collaboration</p>
+        <p>✔ GitHub file upload</p>
+        <p>✔ Linked HTML pages</p>
+    </div>
+
+    <div class="card">
+        <h2>⬅️ Back</h2>
+        <p><a href="index.html">Return to Home</a></p>
+    </div>
+
+</div>
+
+<footer>
+    <p>GitHub Collaboration Demo</p>
+</footer>
+
+</body>
+</html>
