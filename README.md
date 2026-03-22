@@ -1,4 +1,14 @@
+## 📸 Project Screenshots
 
+### 👩‍💻 Contributor 1 Page
+![Contributor 1](image/contributor1.png)
+
+---
+
+### 👨‍💻 Contributor 2 Page
+![Contributor 2](image/contributor2.png)
+
+---
 
 [![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-00B4D8?style=for-the-badge&logo=github&logoColor=white)](https://pavithraB-wec.github.io/html-demo-project)
 [![Contributors](https://img.shields.io/badge/Contributors-2-065A82?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pavithraB-wec/html-demo-project/graphs/contributors)
